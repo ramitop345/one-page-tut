@@ -4,7 +4,10 @@
     //angular methodmodule to start app
     angular.module('myFirstApp', [])
     //controller represents the view model, a way a combining HTML and Javascript
-    .controller('myFirstController', function(){
-
+    .controller('myFirstController', function($scope){
+        $scope.name = "Ramses";
+        $scope.sayHello = function () {
+            return "Hello World"
+        };
     });
 })();

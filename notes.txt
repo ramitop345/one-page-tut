@@ -7,3 +7,20 @@ Loose Coupling: every component should be independent of other and changes made 
 High cohesion: every method in a component should steak to just execute the disired operation without executing any other line of code
 
 npm install angular@1.8.2: this is the command I used to install ANGULAR FOR THIS PROJECT
+
+ng-app="myFirstApp": used to inform the HTML about the angular binding
+
+<script src="./angular.min.js"></script>: add the angular js to html
+
+<div ng-controller="myFirstController">: used to inform html that this section may content functions, variables and methods generated from the controller in js
+
+<input type="text" ng-model="name">: ng-model isa way of referencing an Angular element for input in html, 
+in this case the given input is considered as name(controller argument) and can be changed accordingly 
+
+.controller('myFirstController', function($scope){
+        $scope.name = "Ramses";
+        $scope.sayHello = function () {
+            return "Hello World"
+        };
+        the scope is used to generate arguments that can be called directly in the html. 
+        the call is with double brackets: {{name}} for example

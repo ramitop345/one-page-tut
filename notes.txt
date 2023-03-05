@@ -5,3 +5,5 @@ Low Cohesion:  a function in javascript executes several operations that are not
 the correct procedure for software programming are:
 Loose Coupling: every component should be independent of other and changes made in one should not directly imply changes in other
 High cohesion: every method in a component should steak to just execute the disired operation without executing any other line of code
+
+npm install angular@1.8.2: this is the command I used to install ANGULAR FOR THIS PROJECT

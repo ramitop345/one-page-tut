@@ -1,0 +1,7 @@
+the small javascript code presents two problems:
+Tight coupling: it means changes made in html could have major consequnces in javascript
+Low Cohesion:  a function in javascript executes several operations that are not directly related to the function
+
+the correct procedure for software programming are:
+Loose Coupling: every component should be independent of other and changes made in one should not directly imply changes in other
+High cohesion: every method in a component should steak to just execute the disired operation without executing any other line of code
